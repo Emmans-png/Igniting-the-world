@@ -1,0 +1,156 @@
+:root{
+    --padding-horizontal:100px;
+    --text-color: aliceblue;
+}
+
+
+body, h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+nav{
+    background-color: darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+nav>h1{
+    color: aliceblue;
+}
+nav>div>a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+}
+#homeSection{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/homeSection.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+}
+#homeSection>h1{
+    color: aliceblue;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+#home2{
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    padding-top: 80px;
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+#home2>img{
+    width: 400px;
+    height: 300px;
+    border-radius: 40px;
+    object-fit: cover;
+    aspect-ratio: 1/1 ;
+}
+#home2>img:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 8px 25px;
+}
+
+#wordSection1{
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    padding-top: 80px;
+}
+#wordSection1>.wordCards>.wordCard>img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+    padding-top: 19px;
+}
+#wordSection1>.wordCards>.wordCard{
+    width: 300px;
+    height: 430px;
+    background-color: darkgoldenrod;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+}
+#wordSection1>.wordCards>.wordCard:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+#wordSection1>.wordCards>.wordCard>h3{
+    color: aliceblue;
+    padding-top: 19px;
+}
+#wordSection1>.wordCards>.wordCard>p{
+    color: aliceblue;
+}
+#wordSection1>h1{
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#wordSection1>.wordCards{
+    display: flex;
+    gap: 35px;
+    padding-bottom: 70px;
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+}
+#wordSection2>.wordCards>.wordCard{
+    width: 300px;
+    height: 430px;
+    background-color: darkgoldenrod;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;}
+#wordSection2>.wordCards>.wordCard>img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 35px;
+    padding-top: 19px;
+}
+#wordSection2>h1{
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#wordSection2>.wordCards>.wordCard{
+    width: 300px;
+    height: 430px;
+    background-color: darkgoldenrod;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+}
+#wordSection2>.wordCards>.wordCard:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+#wordSection2>.wordCards>.wordCard>h3{
+    color: aliceblue;
+    padding-top: 19px;
+}
+#wordSection2>.wordCards>.wordCard>p{
+    color: aliceblue;
+}
+#wordSection2{
+    padding-left: var(--padding-horizontal);
+    padding-right: var(--padding-horizontal);
+    padding-bottom: 40px;
+}
+#wordSection2>.wordCards{
+    gap: 50px;
+    display: flex;
+}
